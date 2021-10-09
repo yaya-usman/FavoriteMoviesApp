@@ -20,6 +20,7 @@ namespace TvShowsApp.Models
         public Genre Genre { get; set; }
 
         [Required]
+        [DisplayFormat(DataFormatString ="{0:0.0#}")]
         public double Rating { get; set; }
 
         [Required]
